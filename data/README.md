@@ -1,1 +1,1 @@
-# Put it into the Data/test set of the RAG knowledge base (Weaviate)
+# Dataset for the RAG Knowledge Base (Weaviate)
