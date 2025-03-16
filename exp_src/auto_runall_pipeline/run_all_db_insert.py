@@ -7,11 +7,11 @@ def run_task(command, log_file):
         return process
 
 commands = [
-    ("python3 src/db_insert.py --task Tess", "logs/tess.log"),
-    ("python3 src/db_insert.py --task Ourswomllm", "logs/ourswomllm.log"),
-    ("python3 src/db_insert.py --task Ourswoocr", "logs/ourswoocr.log"),
-    ("python3 src/db_insert.py --task Oursworewrite", "logs/oursworewrite.log"),
-    ("python3 src/db_insert.py --task Ours", "logs/ours.log"),
+    ("python3 exp_src/db_insert.py --task Tess", "logs/tess.log"),
+    ("python3 exp_src/db_insert.py --task Ourswomllm", "logs/ourswomllm.log"),
+    ("python3 exp_src/db_insert.py --task Ourswoocr", "logs/ourswoocr.log"),
+    ("python3 exp_src/db_insert.py --task Oursworewrite", "logs/oursworewrite.log"),
+    ("python3 exp_src/db_insert.py --task Ours", "logs/ours.log"),
 ]
 
 with concurrent.futures.ThreadPoolExecutor() as executor:
