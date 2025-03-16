@@ -87,7 +87,7 @@ python3 exp_src/rewrite.py --task Tess
 ```
 
 ### 4. Generate Preprocessed Text for All Settings
-Run all text preprocessing pipelines, including **baselines, ablation studies, and our proposed KAP framework**:
+Run all text preprocessing pipelines, including **ablation studies, and our proposed KAP framework**:
 ```bash
 python3 exp_src/auto_runall_pipeline/run_all_rewrite.py
 ```
