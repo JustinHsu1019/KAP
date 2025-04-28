@@ -5,14 +5,14 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")
 import utils.ai.claude_tem as call_ai
 
 def ours(ocr_text):
-  PROMPT = f"""請擔任專業的繁體中文知識改寫專家，基於 OCR 轉換後的文本進行改寫，使其滿足混合檢索（BM25 + Vector Search）的需求。
+  PROMPT = f"""請擔任專業的繁體中文知識改寫專家，基於 OCR 轉換後的文本進行改寫，使其滿足混合檢索（BM25 + Dense Retrieval）的需求。
 
 你的任務包括以下幾點：
 
 1. OCR 錯誤校正
 - 修正 OCR 轉換中的錯誤（例如：錯字、漏字、語句順序倒置等），使文本更加流暢且符合語法規則。
 
-2. 格式優化（適合 Vector Search）
+2. 檢索友善改寫（適合 Dense Retrieval）
 - 針對「表格型 / 非純敘述型」內容，轉換為易於語意檢索的敘述句。  
   - 例如，若原文本包含發票、財務報表等表格資訊，請改寫為連貫的描述句，確保數據與背景資訊完整：
     - 原始表格內容：
