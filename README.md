@@ -94,8 +94,8 @@ python3 exp_src/auto_runall_pipeline/run_all_rewrite.py
 
 ### 5. Perform Text Embedding and Store in the Vector Database  
 Convert the processed text into **vector representations** and store them in the **Weaviate vector database**. This step includes:  
-- **Text embedding** using OpenAI Embedding Model (for vector retrieval)
-- **Tokenization** using Jieba (for bm25 retrieval)  
+- **Text embedding** using OpenAI’s `text-embedding-3-large` model (for dense retrieval)
+- **Tokenization** using `Jieba` (for bm25 retrieval)  
 - **Storing the processed embeddings** in the vector database  
 
 Run the following command to execute the full pipeline:  
