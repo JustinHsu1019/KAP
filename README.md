@@ -1,6 +1,8 @@
 # KAP: MLLM-assisted OCR Text Enhancement for Hybrid Retrieval in Chinese Non-Narrative Documents
 
-Official Code Repository for the paper ["KAP: MLLM-assisted OCR Text Enhancement for Hybrid Retrieval in Chinese Non-Narrative Documents"](https://arxiv.org/pdf/2503.08452).
+### 🎉 Excited to share that our paper, ["KAP: MLLM-assisted OCR Text Enhancement for Hybrid Retrieval in Chinese Non-Narrative Documents"](https://arxiv.org/abs/2503.08452), has been accepted to **AI CUP Workshop @ NTCIR-18** !
+
+---
 
 ## Abstract
 
